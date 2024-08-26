@@ -1,0 +1,6 @@
+asyncio
+aiogram
+asyncpg
+datetime
+sqlalchemy
+psycopg2
