@@ -186,9 +186,8 @@ except:
 if __name__ == "__main__":
 
     try:
-        print('Запуск бота.')
+        log.info(f"{datetime.datetime.now()}: Запуск бота.")
         asyncio.run(main())
-        print('Бот активирован')
     except:
         #Если в момент активации нет связи с ботом уведомляем консоль и пробуем снова каддые 10 секунд.
         restart_bot()
